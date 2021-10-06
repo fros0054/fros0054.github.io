@@ -14,6 +14,10 @@ header, footer {
     color: #3B429F
 }
 
+.notes-heading {
+    color: #3B429F; background-color: #F4A5AE;
+}
+
 #my-image {
     box-shadow: 0px 0px 2px 1px #000;
 }
@@ -31,17 +35,9 @@ li {
 }
 
 a:link {
-   text-decoration: none; 
-}
-
-a:visited {
-
+   text-decoration: none; background-color: #F4A5AE;
 }
 
 a:hover {
-
-}
-
-a:active {
-
+    background-color: #A9F8FB;
 }
