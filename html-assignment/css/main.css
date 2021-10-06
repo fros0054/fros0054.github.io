@@ -35,7 +35,7 @@ li {
 }
 
 a:link {
-   text-decoration: none; background-color: #F4A5AE;
+   text-decoration: none; background-color: #F4A5AE; border-style: outset; border-radius: 5px; border-width: 1px 1px;
 }
 
 a:hover {
