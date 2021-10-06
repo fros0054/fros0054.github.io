@@ -1,0 +1,15 @@
+body {
+    font-family: monospace;  font-size: 18px;
+}
+
+header, footer {
+    background-color: #3B429F;
+}
+
+.site-title {
+    color: #AA7DCE
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px #000;
+}
