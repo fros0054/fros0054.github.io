@@ -30,11 +30,11 @@ a:link {
 }
 
 a:visited {
-    color: gray;
+    color: black;
 }
 
 a:hover {
-    color: black;
+    color: gray;
 }
 
 a:active {
