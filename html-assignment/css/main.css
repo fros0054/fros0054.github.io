@@ -2,14 +2,46 @@ body {
     font-family: monospace;  font-size: 18px;
 }
 
+footer {
+    color: #3B429F;
+}
+
 header, footer {
-    background-color: #3B429F;
+    background-color: #F4A5AE;
 }
 
 .site-title {
-    color: #AA7DCE
+    color: #3B429F
 }
 
 #my-image {
     box-shadow: 0px 0px 2px 1px #000;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li:nth-child(odd) {
+    background-color: #F4A5AE;
+}
+
+li {
+    color: #3B429F;
+}
+
+a:link {
+   text-decoration: none; 
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
 }
