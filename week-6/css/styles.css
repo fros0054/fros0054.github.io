@@ -2,6 +2,8 @@ body {
     font-family: Verdana, Tahoma, sans-serif; 
     font-size:  16px;
     line-height: 1.5;
+    background-color: #eee;
+    background-image: url("../images/white_brick_wall.png");
 }
 
 p:nth-child(3) {
