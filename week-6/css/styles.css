@@ -1,9 +1,23 @@
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: Verdana, Tahoma, sans-serif; 
     font-size:  16px;
     line-height: 1.5;
     background-color: #eee;
     background-image: url("../images/white_brick_wall.png");
+    background-repeat: no-repeat;
+    background-position: 100px 500px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
 }
 
 p:nth-child(3) {
