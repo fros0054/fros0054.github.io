@@ -1,0 +1,34 @@
+nav ul li  {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.box {
+    width: 200px;
+    background-color: #369;
+    color: #fff;
+    /* introduce box model*/
+    padding: 10px;
+    border: 5px solid #900;
+    margin: 10px;
+    /* float the boxes beside eachother */
+    float: left;
+}
+
+/* center a box level element */
+/* .box1 {
+    margin: 0 auto; 
+} */
+
+.box1 {
+    box-sizing: content-box;
+}
+
+.box2 {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: left;
+}
