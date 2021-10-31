@@ -1,8 +1,10 @@
 body {
+    /*changes background color of body*/
     background-color: #aad4cf; 
 }
 
 .container {
+    /*changed background color behind all the text*/
     background-color: #d4e9e7;
     width: 70%;
     margin:auto;
@@ -23,6 +25,7 @@ body {
 }
 
 .contact-box {
+    /*adds a contact form*/
     border: solid black 1px;
     padding: 10px;
 }
@@ -38,6 +41,6 @@ footer {
 
 input.send {
     background-color: transparent;
-    /* background-repeat: no-repeat; */
+    /*adds css to the send button */
     border: black 1px solid;
 }
