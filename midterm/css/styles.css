@@ -1,5 +1,21 @@
-body {
+.html {
     background-color: #aad4cf;
+    margin: 0 15%;
 }
+
+.starfish-wide {
+    width: 1325px;
+    height: 400px;
+    
+}
+
+.lone-starfish {
+    width: 170px;
+    height: 120px;
+    float: left;
+    
+}
+
+
 
 
