@@ -25,7 +25,7 @@ body {
 }
 
 .contact-box {
-    /*adds a contact form*/
+    /*adds a outline contact form*/
     border: solid black 1px;
     padding: 10px;
 }
