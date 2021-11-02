@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Responsive Demo</title>
+
+    <style>
+    /* CSS GOES HERE*/
+
+    /* DEFAULT / MOBILE-FIRST STYLES */
+    body {
+        background: pink;
+        padding: 0; margin: 0;
+        font-size: 1.5rem;
+    }
+
+    h1,h2,h3,h4,h5,h6,p {
+        margin: 0;
+    }
+
+    header, main, footer {
+        width: 100%;
+        margin: 0 auto;
+        background: white;
+    }
+
+    header {
+        background: blue;
+        color: white;
+    }
+
+    .container {
+        width: auto;
+        padding: 40px;
+        margin: 0 auto;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .small { display: block;}
+    .large {display: none;}
+
+    /* TABLET WIDTH: APPROX 600-1000px */
+
+    @media screen and (min-width: 600px) and (max-width: 999px) {
+
+        body {
+            font-size: 2.5rem;
+        }
+
+        header {
+             background: rgb(3, 42, 3);
+        }    
+
+        .container {
+            width: 500px;
+        }
+    }
+
+        @media screen and (min-width: 1000px) {
+
+        body {
+            font-size: 3.5rem;
+        }
+
+        header {
+             background: rgb(204, 100, 16);
+        }    
+
+        .container {
+            width: 900px;
+        }
+
+        .large { display: block;}
+        .small {display: none;}
+    }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1>Header</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+
+            <img class="small" src="images/small-kitty.jpg"  alt="small-kitty">
+
+            <img class="large" src="images/fake_cats.jpg" alt="fake-cats">
+
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolorum consequuntur molestiae id atque, cumque facilis doloremque ex fugit rerum aliquam quibusdam praesentium, exercitationem deserunt nihil. Cum voluptatibus sit voluptas! </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolorum consequuntur molestiae id atque, cumque facilis doloremque ex fugit rerum aliquam quibusdam praesentium, exercitationem deserunt nihil. Cum voluptatibus sit voluptas! </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolorum consequuntur molestiae id atque, cumque facilis doloremque ex fugit rerum aliquam quibusdam praesentium, exercitationem deserunt nihil. Cum voluptatibus sit voluptas! </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolorum consequuntur molestiae id atque, cumque facilis doloremque ex fugit rerum aliquam quibusdam praesentium, exercitationem deserunt nihil. Cum voluptatibus sit voluptas! </p>
+        </div>
+    </main>
+    <footer>
+        &copy; Algonquin College
+    </footer>
+    
+</body>
+</html>
