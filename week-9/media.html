@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries Assignment</title>
+
+    <style>
+        /* MOBILE STYLE FIRST*/
+
+    .largekitten {display: none;}
+    .smallkitten {display: block;}
+
+    .gamelist {
+        list-style-type: none;
+        padding: 10px;
+    }
+
+
+
+    /*TABLET WIDTH appx 600-1000px */
+
+    @media screen and (min-width: 480px) and (max-width: 799px) {
+
+        
+
+        .largekitten {display: block;}
+
+     }
+
+     /* Screen size above 800px*/
+
+     @media screen and (min-width: 800px) and (max-width: 899px) {
+
+
+
+     }
+
+        
+
+    </style>
+
+</head>
+<body>
+    <main class="container">
+        <h1>Meet Haiku</h1>
+        <img class="smallkitten" src="images/small-kitten.jpg" alt="kitten image">
+        <img class="largekitten" src="images/large-kitten.jpg" alt="kitten image">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic cumque veritatis odio eius quibusdam nemo. Mollitia iste explicabo reprehenderit est dolorum molestiae debitis reiciendis tempore, qui laudantium recusandae minima aut.
+        </p>
+        <h3>Fun Games</h3>
+        <ul class="gameslist">
+          <li>Scratch the furniture</li>
+          <li>Jump on keyboard</li>
+          <li>Stare the human</li>
+        </ul>
+      </main>
+      <div class="instructions">
+</body>
+</html>
