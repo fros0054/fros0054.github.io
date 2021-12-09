@@ -1,0 +1,406 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;   
+    background: white; 
+	background-color: #282828;
+}
+
+
+.container {
+	margin: 0 auto;
+}
+
+.logo-box {
+	background-color: #c78b07;
+	height: 100px;
+}
+
+.nav-links li a {
+	text-align: center;
+	text-decoration: none;
+	color: #c78b07;
+}
+
+.nav-links li { /* change later */
+	padding: 20px;
+	text-align: center;
+}
+
+#home-link{
+	text-align: center;
+	text-decoration: none;
+	color: #282828;
+}
+
+#home-nav-container{
+	background-color: #c78b07; 
+}
+
+.search {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.search-bar {
+	width: 630px;
+	margin: 0 5px;
+	margin-right: 15px;
+}
+
+.search-bar input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 15px;
+}
+
+.magnifying-img {
+	border: none;
+	border-radius: 4px;
+	outline: solid 1px #c78b07;
+	width: 50px;
+	height: 38px;
+	background-color: transparent; /* fix overlap */
+}
+
+.welcome-box {
+	background-color: rgba(30, 30, 30, .5);
+	height: 80%;
+	padding: 20px;
+}
+
+.welcome-box h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 71px;
+	line-height: 98px;
+	color: white;	
+}
+
+.welcome-box p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	color: white;
+	margin-top: 25px;
+}
+
+.button {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 21px;
+	border: 0;
+	height: 90px;
+	width: 250px;
+	margin-top: 10px
+}
+
+.container.welcome {
+	background-image: url("../images/main-banner.jpg");
+	/* background-size: cover;  add css to make the image fit properly */
+	height: 500px;
+	background-position: bottom;
+}
+
+section {
+	background-color: white;
+	width: 706px;
+	margin: 0 auto;
+}
+
+.yellow {
+	background-color: #ffe6ac;
+}
+
+.section1-img {
+	width: 100%;
+	padding-top: 15px
+}
+
+.img-wrapper {
+	width: 680px;
+	margin: auto;
+	
+}
+
+section h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+	/* margin-top: 25px; */
+	padding-top: 35px;
+}
+
+.head-text {
+	width: 680px;
+	margin: auto;
+}
+
+.body-text {
+	width: 650px;
+	padding: 15px;
+	margin: auto;
+}
+
+section p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.title {
+	margin: 0;
+}
+
+section h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	padding-top: 25px;
+}
+
+section h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	padding-top: 5px;
+}
+
+
+.orange {
+	background-color: #c78b07;
+}
+
+.black {
+	background-color: #333;
+	color: white;
+
+}
+
+
+.origami {
+	background-image: url("../images/vision.jpg");
+	background-position: center;
+	color: white;
+}
+
+.origami p {
+	padding-top: 16px;
+	padding-bottom: 0;
+}
+
+.origami .head-text {
+	padding-bottom: 15px;
+}
+
+.black-transp {
+	background-color: rgba(30, 30, 30, .7);
+	color: white;
+	border: 1px #c78b07 solid;
+	
+}
+
+.underline{
+	border-bottom: 2px #c78b07 solid;
+	padding-bottom: 5px;
+}
+
+section h3.subtitle  {
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.contact-form {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.contact-form input { 
+	padding-top: 2px;
+	
+	
+}
+
+
+.contact-form label {
+	display: block;
+	padding-bottom: 5px;
+	padding-top: 12px;
+	font-weight: 700;
+}
+
+
+#fname{
+	height: 20px;
+	width: 672px;
+}
+
+#mail {
+	height: 20px;
+	width: 672px;
+}
+
+#message {
+	height: 100px;
+	padding-bottom: 5px;
+	width: 672px;
+}
+
+.contact-send {
+	background-color: black;
+	color: #c78b07;
+	border: none;
+	font-size: 18px;
+	margin-top: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.hours-table table {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	width: 100%;
+}
+
+.hours-table th {
+	background-color: #ffe6ac;
+	padding: 14px;
+}
+
+table * {
+	border: 1px black solid;
+}
+
+.hours-table td {
+	padding: 14px;
+}
+
+.hours-table h3 {
+	padding-bottom: 10px;
+}
+
+.algonquin-map iframe {
+	width: 100%;
+}
+
+.algonquin-map h3 {
+	padding-bottom: 10px;
+}
+
+
+.section-5 {
+	padding-bottom: 15px;
+}
+
+
+.footer-container {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: #c78b07;
+}
+
+.footer-container p:nth-child(1) {
+	padding-bottom: 15px;
+}
+
+.footer-container a {
+	color: #c78b07;
+}
+
+.print {
+	padding-bottom: 28px;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* ==== This just sets the width for accuracy to the mock-up ==== */
+        /* Don't put anything else in this media query! */
+@media screen and (min-width: 706px) {
+    .container {
+        width: 706px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+
