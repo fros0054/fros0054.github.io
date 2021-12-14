@@ -376,19 +376,6 @@ table * {
 
 
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
 /* ==== This just sets the width for accuracy to the mock-up ==== */
         /* Don't put anything else in this media query! */
 @media screen and (min-width: 706px) {
@@ -402,5 +389,20 @@ table * {
         width: 1200px;
     }
 }
+
+
+.container {
+	display: flex;
+	height: 171px;
+	justify-content: center;
+
+}
+
+
+.welcome {
+	height: 12500px;
+}
+
+
 
 
